@@ -131,3 +131,35 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     cursor: pointer;
     outline-color: rgb(137, 255, 40);
 }
+
+.data:hover
+{
+    color: greenyellow;
+}
+.card
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    background: linear-gradient(rgb(235, 15, 125),rgb(239, 0, 163),rgb(243, 150, 226));
+    border: 2px solid;
+    text-align: center;
+    font-size: 65px;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-shadow: 0px 2px 8px rgb(30, 28, 7);
+    margin-top: 6px;
+    color: rgb(255, 255, 255);
+    filter: blur(1px);
+}
+.card:hover
+{
+    filter: blur(0px);
+    transform: translateY(-20px);
+    box-shadow: 0px 2px 20px black;
+    transition: 0.2s;
+
+}
